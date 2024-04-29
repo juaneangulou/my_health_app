@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp.router(
       routerConfig: MyHealthAppRouter.router,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
