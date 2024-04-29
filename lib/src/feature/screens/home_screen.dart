@@ -11,10 +11,9 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            context.go('/age');
-            // Navigator.pushNamed(context, '/second');
+                context.go('/zodiac');
           },
-          child: Text('Go to Age Screen from Home Screen'),
+          child: Text('Go from Home to Zodiac Screen'),
         ),
       ),
     );
